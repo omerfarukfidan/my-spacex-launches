@@ -2,7 +2,7 @@ import Link from "next/link";
 import Layout from "../../components/layout";
 import { useEffect, useState } from "react";
 
-const Launches = () => {
+const User = () => {
   const [userInfo, setUserInfo] = useState([]);
   useEffect(() => {
     const getData = async () => {
@@ -18,7 +18,7 @@ const Launches = () => {
     <>
       <Layout>
         <div>
-          <h2> This is Launches Page! </h2>
+          <h2> This is User Page! </h2>
         </div>
 
         <div>
@@ -38,4 +38,4 @@ const Launches = () => {
   );
 };
 
-export default Launches;
+export default User;
