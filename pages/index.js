@@ -24,14 +24,20 @@ export default function Home({ allPostsData }) {
       </Head>
 
       <div>
-        <h1 className="title">Welcome to SpaceX Launches Test Page </h1>
+        <h1 className="title">Welcome to SpaceX Launches and User Test Page </h1>
       </div>
 
       <div>
         <h1>
-          For Launches <Link href="/launches/launch">Click</Link>
+          For Users <Link href="/users/user">Click</Link>
         </h1>
       </div>
+      <div>
+        <h1>
+          For Launches <Link href="/">Click</Link>
+        </h1>
+      </div>
+
 
       <section className={utilStyles.headingMd}>
         <p>[Hi my name is Ömer and I am an Computer Engineer.]</p>
