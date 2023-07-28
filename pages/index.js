@@ -34,7 +34,7 @@ export default function Home({ allPostsData }) {
       </div>
       <div>
         <h1>
-          For Launches <Link href="/">Click</Link>
+          For Launches <Link href="/launch">Click</Link>
         </h1>
       </div>
 
